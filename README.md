@@ -12,12 +12,11 @@ https://ftp.ensembl.org/pub/release-93/genbank/gorilla_gorilla/
 ## Zebrafish Genome 
 https://ftp.ensembl.org/pub/release-93/genbank/danio_rerio/
 
-## Random Protien generation 
+## Random Protein generation 
 https://www.bioinformatics.org/sms2/random_protein.html
 
-## pattern generation
-https://github.com/lh3/wgsim/
-
-## data partitioning 
-https://github.com/y-256/libdivsufsort
+## BWT Array Transformation (python)
+https://www.geeksforgeeks.org/burrows-wheeler-data-transform-algorithm/
+## data partitioning (approximate matching with k differences) (python)
+https://www.geeksforgeeks.org/fuzzywuzzy-python-library/
 
