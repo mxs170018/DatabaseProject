@@ -1,4 +1,6 @@
-
+# MXS170018
+# 6360.503
+# Phase 5
 import time
 import pickle
 from fuzzywuzzy import fuzz 
@@ -140,7 +142,7 @@ def openAndParse(fileName):
 
     return out
 
-
+# ONLINE SOLUTION NOT OUR WORK
 def approximate_matching_with_k_differences(str1, str2,k):
     # Calculate fuzz ratio (percentage of similarity) between the strings
     fuzz_ratio = fuzz.ratio(str1, str2)
@@ -378,14 +380,14 @@ def testCase4List(targetName,patternDict,k=10, l=5):
 
 
 
-# dataTry = [ "zebrafish","gorilla","prot1",'prot2'] #
-# yy= open("tc1Patterns",'rb')
-# tc1 = pickle.load(yy)
-# yy.close()
+dataTry = [ "zebrafish","gorilla","prot1",'prot2'] #
+yy= open("tc1Patterns",'rb')
+tc1 = pickle.load(yy)
+yy.close()
 
-# k =  [i for i in range(1,4)]
-# print(k)
-# stats = testCase1List(dataTry,tc1,k)
+k =  [i for i in range(1,4)]
+print(k)
+stats = testCase1List(dataTry,tc1,k)
 
 # dataTry = [ "zebrafish","gorilla"] 
 # yy= open("tc23Patterns",'rb')
@@ -403,8 +405,8 @@ def testCase4List(targetName,patternDict,k=10, l=5):
 # testCase3List(dataTry,tc23,k,lList)
 
 
-dataTry = [ "zebrafish","gorilla","prot1",'prot2'] 
-yy= open("tc4Patterns",'rb')
-tc4 = pickle.load(yy)
-yy.close()
-testCase4List(dataTry,tc4,k=10,l=5)
+# dataTry = [ "zebrafish","gorilla","prot1",'prot2'] 
+# yy= open("tc4Patterns",'rb')
+# tc4 = pickle.load(yy)
+# yy.close()
+# testCase4List(dataTry,tc4,k=10,l=5)
