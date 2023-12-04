@@ -3,7 +3,6 @@
 ## What to Run? 
 ##### Download the files in this github (the folders are not necessary) 
 ##### Run final.py for test case 1
-final.py
 
 *Note*: This external libraries are fuzzywuzzzy and pickle 
 
