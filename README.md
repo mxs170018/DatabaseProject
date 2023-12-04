@@ -1,5 +1,10 @@
 # DatabaseProject
 
+## What to Run? 
+##### Download the files in this github (the folders are not necessary) and run
+final.py
+
+*Note*: This external libraries are fuzzywuzzzy and pickle 
 
 ## paper we are implementing
 http://vldb.org/pvldb/vol14/p903-chen.pdf  
