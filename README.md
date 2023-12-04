@@ -1,10 +1,12 @@
 # DatabaseProject
 
 ## What to Run? 
-##### Download the files in this github (the folders are not necessary) and run
+##### Download the files in this github (the folders are not necessary) 
+##### Run final.py for test case 1
 final.py
 
 *Note*: This external libraries are fuzzywuzzzy and pickle 
+*Note*: This program takes over an hour to run ONLY TEST CASE 1, so it is easier to read what we did in the report.
 
 ## paper we are implementing
 http://vldb.org/pvldb/vol14/p903-chen.pdf  
